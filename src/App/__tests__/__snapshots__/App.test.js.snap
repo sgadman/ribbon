@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> should match snapshot 1`] = `
+<div
+  className="makeStyles-app-1"
+>
+  <Ribbon />
+  <Router
+    basename="/pega/"
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "marginLeft": 60,
+        }
+      }
+    >
+      <Switch>
+        <Route
+          component={[Function]}
+          path="/home"
+        />
+        <Route
+          component={[Function]}
+          path="/bug"
+        />
+        <Route
+          component={[Function]}
+          path="/epic"
+        />
+      </Switch>
+    </div>
+  </Router>
+</div>
+`;
